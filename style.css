@@ -90,3 +90,18 @@ i {
   background-color: #06e43e;
   text-decoration: line-through;
 }
+
+@media (max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+
+  h1 {
+    color: white;
+    font-size: 30px;
+  }
+
+  .input-task {
+    width: 150px;
+  }
+}
